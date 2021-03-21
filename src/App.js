@@ -1,24 +1,28 @@
+import BaiTapthucHanhLayout from './BaiTapthucHanhLayout/BaiTapthucHanhLayout';
+import BaiTapChonXe from './Components/BaiTapChonXe/BaiTapChonXe';
+import BaiTapLayout from './Components/BaiTaplayout/BaiTapLayout';
+import Databinding from './Databinding/Databinding';
+import HandleEvent from './HandleEvent/HandleEvent';
 import logo from './logo.svg';
-import './App.css';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
+import StateDemo from './StateDemo/StateDemo';
+import StyleComponent from './StyleComponent/StyleComponent';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <BaiTapLayout /> */}
+      {/* <StyleComponent /> */}
+      {/* <Databinding /> */}
+      {/* <HandleEvent /> */}
+      {/* <StateDemo /> */}
+      {/* <BaiTapChonXe /> */}
+      {/* <RenderWithMap /> */}
+      <BaiTapthucHanhLayout />
     </div>
+
   );
 }
 
