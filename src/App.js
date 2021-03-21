@@ -20,7 +20,7 @@ function App() {
       {/* <StateDemo /> */}
       {/* <BaiTapChonXe /> */}
       {/* <RenderWithMap /> */}
-      <BaiTapthucHanhLayout />
+      {/* <BaiTapthucHanhLayout /> */}
     </div>
 
   );
