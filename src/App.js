@@ -1,4 +1,5 @@
-import BaiTapthucHanhLayout from './BaiTapthucHanhLayout/BaiTapthucHanhLayout';
+
+import BT3ThucHanhLayout from './BaiTapThucHanhLayout/BT3ThucHanhLayout';
 import BaiTapChonXe from './Components/BaiTapChonXe/BaiTapChonXe';
 import BaiTapLayout from './Components/BaiTaplayout/BaiTapLayout';
 import Databinding from './Databinding/Databinding';
@@ -20,7 +21,7 @@ function App() {
       {/* <StateDemo /> */}
       {/* <BaiTapChonXe /> */}
       {/* <RenderWithMap /> */}
-      <BaiTapthucHanhLayout />
+      <BT3ThucHanhLayout />
     </div>
 
   );
